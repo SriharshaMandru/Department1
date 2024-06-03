@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department</title>
+    <link rel="stylesheet" href="department.css"></link>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <div class="department">
+    <div class="d1">
+    <h1>Department</h1>
+    </div>
+    <div class="d2">
+        <div class="in1">
+            <p>Dashboard</p>
+        </div>
+        <div class="in2">
+            <p>/Department</p>
+        </div>
+    </div>
+    <button id="addDepartment">+ Add Department</button>
+    </div>
+    <div id="formDiv" style="display: none;" class="d3">
+        <form id="formSubmit">
+            <div class="a">
+            <label for="sNo">S.No</label>
+            <input type="text" id="sNo" name="sNo" required>
+            </div>
+            <br>
+            <div class="b">
+            <label for="department">Department</label>
+            <input type="text" id="department" name="department" required>
+            <br>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <table id="departmentTable">
+        <thead>
+            <tr>
+                <th class="t1">#</th>
+                <th class="t1">Department</th>
+                <th class="t2">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+<script src="department.js"></script>
+</div>
+</body>
+</html>
