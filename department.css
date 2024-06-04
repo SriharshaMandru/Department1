@@ -19,7 +19,7 @@
     display: flex;
     height: 30px;
     margin-top: 30px;
-    margin-left: -1135px;
+    margin-left: -1095px;
 }
 .department .d2 .in1 p{
     font-weight: bold;
@@ -51,7 +51,7 @@ table thead tr .t1{
 }
 table thead tr .t2{
     text-align: right;
-    padding-right: 100px;
+    padding-right:50px;
 }
 
 table thead th:first-child {
@@ -80,7 +80,7 @@ table tbody tr td:last-child ion-icon {
     display: block; 
     margin: auto; 
     color:black; 
-    margin-left: 1050px;
+    margin-left: 980px;
 }
 
 
@@ -96,7 +96,7 @@ table tbody tr td:last-child:hover ion-icon {
     border: 2px solid black;
 }
 .d3 .a label{
-    padding-right: 53px;
+    padding-right: 40px;
 }
 .d3 .b label{
     padding-right: 3px;
