@@ -11,7 +11,7 @@ document.getElementById('formSubmit').addEventListener('submit',function(event){
     const newRow = table.insertRow();
     const sNoCell = newRow.insertCell(0);
     const departmentCell = newRow.insertCell(1);
-    const actionCell = newRow.insertCell(2)
+    const actionCell = newRow.insertCell(2);
     sNoCell.textContent = sNo;
     departmentCell.textContent = department;
     const icon = document.createElement('ion-icon');
