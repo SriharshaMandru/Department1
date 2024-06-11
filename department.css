@@ -19,7 +19,7 @@
     display: flex;
     height: 30px;
     margin-top: 30px;
-    margin-left: -1095px;
+    margin-left: -1136px;
 }
 .department .d2 .in1 p{
     font-weight: bold;
@@ -43,26 +43,43 @@
     color: white;
 }
 table{
-    width:100%;
+    width:95%;
     margin-left: 20px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    justify-content: space-between;
+    table-layout: fixed;
+} 
+table th, table td{
+    border:1px solid black;
+    padding: 10px;
+    padding-left: 20px;
 }
 table thead tr .t1{
     text-align: left;
 }
 table thead tr .t2{
     text-align: right;
-    padding-right:50px;
+    padding-right: 50px;
 }
-
 table thead th:first-child {
     padding-right: 20px; 
+    text-align: center;
 }
 
 table thead th:nth-child(2) {
     padding-left: 20px; 
+    text-align: center;
 }
-
-
+table thead th:nth-child(3){
+    padding-left: 20px;
+    text-align: center;
+}
+table tbody tr td{
+    padding:10px;
+    text-align: center;
+    width:33.33%;
+}
 table tbody tr td:first-child {
     padding-right: 20px; 
 }
@@ -70,7 +87,6 @@ table tbody tr td:first-child {
 table tbody tr td:nth-child(2) {
     padding-left: 20px; 
 }
-
 
 table tbody tr td:last-child {
     text-align: center;
@@ -80,23 +96,28 @@ table tbody tr td:last-child ion-icon {
     display: block; 
     margin: auto; 
     color:black; 
-    margin-left: 980px;
+    margin-left: 200px;
 }
-
-
 table tbody tr td:last-child:hover ion-icon {
     color: royalblue; 
 }
 .d3
 {
-    width:300px;
+    width:350px;
     height: 200px;
     margin-top: -50px;
     margin-left: 550px;
     border: 2px solid black;
+    background-color: crimson;
+}
+.d3 .a{
+    margin-left: 19px;
 }
 .d3 .a label{
-    padding-right: 40px;
+    padding-right: 53px;
+}
+.d3 .b{
+    margin-left: 30px;
 }
 .d3 .b label{
     padding-right: 3px;
@@ -104,16 +125,21 @@ table tbody tr td:last-child:hover ion-icon {
 .d3 .a input{
     width:200px;
     height: 30px;
+    padding-left: 3%;
 }
 .d3 .b input{
     width:200px;
     height:30px ;
+    padding-left: 3%;
 }
 .d3 button{
     width:60px;
     height: 30px;
     margin-top: 30px;
-    margin-left: 120px;
+    margin-left: 150px;
+    border: none;
+    color: white;
+    background-color: black;
 }
 .d3 form{
     padding-top: 30px;
